@@ -105,3 +105,32 @@ a {
     color-scheme: dark;
   }
 }
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 40px;
+  margin-top: 40px;
+  margin-top: 40px;
+}
+
+main h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 20px;
+}
+
+footer p {
+	font-size: 20px;
+	font-weight: 600;
+}
