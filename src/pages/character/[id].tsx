@@ -22,7 +22,7 @@ export const getStaticPaths:GetStaticPaths = async (locales) => {
 
 	const characters = await fetch("https://www.amiiboapi.com/api/amiibo/");
 	const resp = await characters.json();
-	const data = resp.amiibo.slice(0, 20);
+	const data = resp.amiibo.slice(0, 50);
 
 	// Obtener los paths para los personajes junto con los locales
 	const paths = data.flatMap((character: Character) =>
